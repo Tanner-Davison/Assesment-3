@@ -1,0 +1,184 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+section{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.profilePic-P{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+#tannerProfilePic {
+	height: 25%;
+	width: 40%;
+	border-radius:50%;
+}
+aside{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.buttonClass{
+	height:50px;
+	width:100px;
+	background-color: yellow;
+	
+}
+.midtown360{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.midtownphotos{
+	display:flex;
+	
+}
+#midtown2{
+	position:absolute;
+	left: 600px;
+	border-radius: 10%;
+	z-index: 1;
+}
+#midtown3{
+	position: absolute;
+	left:1065px;
+	top:240px;
+	border-radius: 20%;
+}
+#midtown{
+	border-radius: 25%;
+	z-index: 2;
+}
+.resteraunts{
+	display:flex;
+	justify-content: space-around;
+	gap:100px;
+	flex-direction: row;
+	margin-top:100px;
+	list-style: none;
+	
+}
+.resteraunts a{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border: 3px black;
+	font-family: 'Roboto', sans-serif;
+	color:black;
+	font-size: 20px;
+}
+
+
+
+.pizzaClass{
+display:flex;
+align-items: center;
+flex-direction: column;
+
+}
+.asadoClass{
+	display:flex;
+	
+	align-items: center;
+	flex-direction: column;
+}
+.yummysClass{
+	display:flex;
+	
+	align-items: center;
+	flex-direction: column;
+}
+.truReligionClass{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+#truLink{
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+}
+#truReligion{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	top:200px;
+}
+article h2{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.food{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+#foodRandomizer{
+	font-size: 20px;
+	border-radius: 10%;
+	background-color: rgb(4, 4, 3);
+	color:white;
+}
+.footerFood{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px groove black;
+	border-radius: 15%;
+	margin-bottom: 50px;
+}
+#back{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
